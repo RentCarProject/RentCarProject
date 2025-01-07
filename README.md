@@ -1,14 +1,6 @@
 # RentCarProject
 
-<!-- https://github.com/DenverCoder1/readme-typing-svg/ -->
-<svg xmlns='http://www.w3.org/2000/svg'
-    xmlns:xlink='http://www.w3.org/1999/xlink'
-    viewBox='0 0 <?= "$width $height" ?>'
-    style='background-color: <?= $background ?>;'
-    width='<?= $width ?>px' height='<?= $height ?>px'>
 
-<?php endfor; ?>
-</svg>
 
 
 
