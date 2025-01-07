@@ -72,7 +72,7 @@
 
 
 
-
+<br><br><br><br>
 
 DEPENDENCIES LIST
 ---
@@ -117,7 +117,7 @@ DEPENDENCIES LIST
 ### Selenium Java
 - `implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.27.0'	// WebDriverManager for easier WebDriver management`
 - `implementation 'io.github.bonigarcia:webdrivermanager:5.9.2`
-
+<br><br><br><br>
 ### FILE TREES
 --- 
 ```
