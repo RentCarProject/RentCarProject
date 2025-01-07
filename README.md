@@ -74,7 +74,49 @@
 
 
 
+DEPENDENCIES LIST
+---
 
+### WEB 의존성
+- `org.springframework.boot:spring-boot-starter-web`
+
+### Lombok
+- `org.projectlombok:lombok`
+
+### JSP 관련 의존성
+- `org.apache.tomcat.embed:tomcat-embed-jasper`
+- `jakarta.servlet:jakarta.servlet-api`
+- `jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api`
+- `org.glassfish.web:jakarta.servlet.jsp.jstl`
+
+### Validation 의존성
+- `org.hibernate.validator:hibernate-validator:8.0.1.Final`
+- `jakarta.validation:jakarta.validation-api:3.1.0`
+
+### JDBC 의존성 (MySQL Connector)
+- `implementation 'org.springframework.boot:spring-boot-starter-jdbc`
+- `runtimeOnly 'com.mysql:mysql-connector-j`
+
+### JPA 의존성 (MySQL을 JPA로 사용할 경우)
+- `implementation 'org.springframework.boot:spring-boot-starter-data-jpa`
+
+### SECURITY
+- `implementation 'org.springframework.boot:spring-boot-starter-security`
+
+### JWT
+- `implementation group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.2`
+- `runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.11.2`
+- `runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.11.2`
+
+- `implementation 'org.springframework.boot:spring-boot-starter-oauth2-client`
+
+### JSoup 의존성 추가
+- `implementation group: 'org.jsoup', name: 'jsoup', version: '1.18.1`
+
+### Selenium WebDriver 의존성 추가
+### Selenium Java
+- `implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.27.0'	// WebDriverManager for easier WebDriver management`
+- `implementation 'io.github.bonigarcia:webdrivermanager:5.9.2`
 
 ### FILE TREES
 --- 
