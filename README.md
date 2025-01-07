@@ -6,8 +6,8 @@
 
 ### 로고 이미지 
 ![KakaoTalk_Photo_2025-01-07-11-15-19](https://github.com/user-attachments/assets/1f23a7d6-d682-42ac-938e-3b0782378173)
-
 _________________________________________________________________________________________________________________________________
+
 
 ### 1. 개발동기 
 
@@ -29,6 +29,7 @@ ________________________________________________________________________________
           사회적 거리두기 및 비대면 트렌드
           
           팬데믹 이후 비대면 서비스의 중요성이 대두됨에 따라, 완전 온라인 예약 및 결제 시스템을 개발하여 비대면 환경에서도 고객이 안전하고 편리하게 렌트카를 이용할 수 있도록 하고자 했습니다.
+_________________________________________________________________________________________________________________________________
 
 ### 2. MEMBER
        김현우 배주현 김준영
@@ -39,6 +40,7 @@ ________________________________________________________________________________
 |김현우|웹 크롤링-차량리스트CRUD-날짜선택(예약가능차량리스트)-차량필터|
 |배주현|테스트2|
 |김준영|테스트2|
+_________________________________________________________________________________________________________________________________
 
 ### 3. HISTORY
 | 헤더1 | 헤더2 | 헤더3 |
@@ -47,16 +49,25 @@ ________________________________________________________________________________
 | 행2 열1 | 행2 열2 | 행2 열3 |
 | 행3 열1 | 행3 열2 | 행3 열3 |
 
+_________________________________________________________________________________________________________________________________
+
+### 4. SKILLS
+---
+### Front-End
+---
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"> <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 
-
+### Back-End
+---
 <img src="https://img.shields.io/badge/JAVA-507e9c?style=for-the-badge&logo=doubanread&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 
-
+### DataBase
+---
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
 
-
+### DevOps
+---
 <img alt="git" src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white"> <img alt="github" src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 
