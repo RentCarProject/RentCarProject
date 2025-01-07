@@ -5,7 +5,7 @@
 
 
 ### 로고 이미지 
-            ![KakaoTalk_Photo_2025-01-07-11-15-19](https://github.com/user-attachments/assets/1f23a7d6-d682-42ac-938e-3b0782378173)
+![KakaoTalk_Photo_2025-01-07-11-15-19](https://github.com/user-attachments/assets/1f23a7d6-d682-42ac-938e-3b0782378173)
 ---
 
 
@@ -69,6 +69,375 @@
 ### DevOps
 ---
 <img alt="git" src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white"> <img alt="github" src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+
+
+
+
+
+
+
+
+.
+├── BN
+│   ├── HELP.md
+│   ├── bin
+│   │   ├── generated-sources
+│   │   │   └── annotations
+│   │   └── generated-test-sources
+│   │       └── annotations
+│   ├── build.gradle
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── out
+│   │   ├── production
+│   │   │   ├── classes
+│   │   │   │   ├── com
+│   │   │   │   │   └── project
+│   │   │   │   │       └── rentcar
+│   │   │   │   │           ├── RentcarApplication.class
+│   │   │   │   │           ├── config
+│   │   │   │   │           │   ├── AppConfig.class
+│   │   │   │   │           │   ├── DataSourceConfig.class
+│   │   │   │   │           │   ├── JpaConfig.class
+│   │   │   │   │           │   ├── PasswordUtil.class
+│   │   │   │   │           │   ├── SecretKeyGenerator.class
+│   │   │   │   │           │   ├── SecurityConfig.class
+│   │   │   │   │           │   ├── WebConfig.class
+│   │   │   │   │           │   ├── auth
+│   │   │   │   │           │   │   ├── Exception
+│   │   │   │   │           │   │   │   ├── CustomAccessDeniedHandler.class
+│   │   │   │   │           │   │   │   └── CustomAuthenticationEntryPoint.class
+│   │   │   │   │           │   │   ├── JWT
+│   │   │   │   │           │   │   │   ├── JwtProperties.class
+│   │   │   │   │           │   │   │   ├── JwtProvider.class
+│   │   │   │   │           │   │   │   ├── KeyGenerator.class
+│   │   │   │   │           │   │   │   ├── TokenInfo$TokenInfoBuilder.class
+│   │   │   │   │           │   │   │   └── TokenInfo.class
+│   │   │   │   │           │   │   ├── Login
+│   │   │   │   │           │   │   │   ├── CustomAuthenticationFailureHandler.class
+│   │   │   │   │           │   │   │   └── CustomLoginSuccessHandler.class
+│   │   │   │   │           │   │   ├── Logout
+│   │   │   │   │           │   │   │   ├── CustomLogoutHandler.class
+│   │   │   │   │           │   │   │   └── CustomLogoutSuccessHandler.class
+│   │   │   │   │           │   │   ├── PrincipalDetails.class
+│   │   │   │   │           │   │   ├── PrincipalDetilsService.class
+│   │   │   │   │           │   │   └── provider
+│   │   │   │   │           │   │       └── CustomAuthenticationProvider.class
+│   │   │   │   │           │   ├── details
+│   │   │   │   │           │   │   ├── CustomUserDetails.class
+│   │   │   │   │           │   │   └── CustomUserDetailsService.class
+│   │   │   │   │           │   └── jwt
+│   │   │   │   │           │       ├── JwtTokenFilter.class
+│   │   │   │   │           │       └── JwtTokenProvider.class
+│   │   │   │   │           ├── controller
+│   │   │   │   │           │   ├── AuthRestController.class
+│   │   │   │   │           │   ├── CarController.class
+│   │   │   │   │           │   ├── HomeController.class
+│   │   │   │   │           │   ├── Portone
+│   │   │   │   │           │   │   └── PortOneController.class
+│   │   │   │   │           │   ├── RentCarController.class
+│   │   │   │   │           │   ├── RentController.class
+│   │   │   │   │           │   ├── ReviewController.class
+│   │   │   │   │           │   ├── TermsAndConditionsController.class
+│   │   │   │   │           │   ├── UserController.class
+│   │   │   │   │           │   └── UserRestController.class
+│   │   │   │   │           └── domain
+│   │   │   │   │               ├── CarSpecifications.class
+│   │   │   │   │               ├── Filter
+│   │   │   │   │               │   └── JWTFilter.class
+│   │   │   │   │               ├── dto
+│   │   │   │   │               │   ├── CarDto.class
+│   │   │   │   │               │   ├── PortOneDto
+│   │   │   │   │               │   │   ├── PortOneAuthInfoResponse$AuthInfo.class
+│   │   │   │   │               │   │   ├── PortOneAuthInfoResponse.class
+│   │   │   │   │               │   │   ├── Response.class
+│   │   │   │   │               │   │   └── TokenResponseDto.class
+│   │   │   │   │               │   ├── RentDto$RentDtoBuilder.class
+│   │   │   │   │               │   ├── RentDto.class
+│   │   │   │   │               │   ├── ReviewDto$ReviewDtoBuilder.class
+│   │   │   │   │               │   ├── ReviewDto.class
+│   │   │   │   │               │   ├── TermsAndConditionsDto$TermsAndConditionsDtoBuilder.class
+│   │   │   │   │               │   ├── TermsAndConditionsDto.class
+│   │   │   │   │               │   ├── UserDto$UserDtoBuilder.class
+│   │   │   │   │               │   ├── UserDto.class
+│   │   │   │   │               │   ├── UserRequestDto.class
+│   │   │   │   │               │   ├── UserResponseDto.class
+│   │   │   │   │               │   └── auth
+│   │   │   │   │               │       ├── AuthRequestDto.class
+│   │   │   │   │               │       └── AuthResponseDto.class
+│   │   │   │   │               ├── entity
+│   │   │   │   │               │   ├── Auth$AuthBuilder.class
+│   │   │   │   │               │   ├── Auth.class
+│   │   │   │   │               │   ├── Car$CarBuilder.class
+│   │   │   │   │               │   ├── Car.class
+│   │   │   │   │               │   ├── JWTToken$JWTTokenBuilder.class
+│   │   │   │   │               │   ├── JWTToken.class
+│   │   │   │   │               │   ├── JwtUtil.class
+│   │   │   │   │               │   ├── Payments.class
+│   │   │   │   │               │   ├── Rent$RentBuilder.class
+│   │   │   │   │               │   ├── Rent.class
+│   │   │   │   │               │   ├── Review$ReviewBuilder.class
+│   │   │   │   │               │   ├── Review.class
+│   │   │   │   │               │   ├── Role.class
+│   │   │   │   │               │   ├── Signature.class
+│   │   │   │   │               │   ├── TermsAndConditions.class
+│   │   │   │   │               │   ├── User$UserBuilder.class
+│   │   │   │   │               │   └── User.class
+│   │   │   │   │               ├── repository
+│   │   │   │   │               │   ├── AuthRepository.class
+│   │   │   │   │               │   ├── CarRepository.class
+│   │   │   │   │               │   ├── JWTTokenRepository.class
+│   │   │   │   │               │   ├── PaymentsRepository.class
+│   │   │   │   │               │   ├── RentRepository.class
+│   │   │   │   │               │   ├── ReviewRepository.class
+│   │   │   │   │               │   ├── SignatureRepository.class
+│   │   │   │   │               │   ├── TermsAndConditionsRepository.class
+│   │   │   │   │               │   └── UserRepository.class
+│   │   │   │   │               └── service
+│   │   │   │   │                   ├── AuthService.class
+│   │   │   │   │                   ├── CarService.class
+│   │   │   │   │                   ├── CertificationService.class
+│   │   │   │   │                   ├── JWTTokenService.class
+│   │   │   │   │                   ├── PaymentService.class
+│   │   │   │   │                   ├── RentServiceImpl.class
+│   │   │   │   │                   ├── ReviewServiceImpl.class
+│   │   │   │   │                   ├── TermsAndConditionsInitializer.class
+│   │   │   │   │                   ├── TermsAndConditionsService.class
+│   │   │   │   │                   └── UserService.class
+│   │   │   │   └── generated
+│   │   │   └── resources
+│   │   │       └── application.properties
+│   │   └── test
+│   │       └── classes
+│   │           ├── com
+│   │           │   └── project
+│   │           │       └── rentcar
+│   │           │           ├── RentcarApplicationTests.class
+│   │           │           └── controller
+│   │           │               └── RentControllerTest.class
+│   │           └── generated_tests
+│   ├── settings.gradle
+│   └── src
+│       ├── main
+│       │   ├── generated
+│       │   ├── java
+│       │   │   └── com
+│       │   │       └── project
+│       │   │           └── rentcar
+│       │   │               ├── RentcarApplication.java
+│       │   │               ├── config
+│       │   │               │   ├── AppConfig.java
+│       │   │               │   ├── DataSourceConfig.java
+│       │   │               │   ├── JpaConfig.java
+│       │   │               │   ├── PasswordUtil.java
+│       │   │               │   ├── SecretKeyGenerator.java
+│       │   │               │   ├── SecurityConfig.java
+│       │   │               │   ├── WebConfig.java
+│       │   │               │   ├── details
+│       │   │               │   │   ├── CustomUserDetails.java
+│       │   │               │   │   └── CustomUserDetailsService.java
+│       │   │               │   └── jwt
+│       │   │               │       ├── JwtTokenFilter.java
+│       │   │               │       └── JwtTokenProvider.java
+│       │   │               ├── controller
+│       │   │               │   ├── AuthRestController.java
+│       │   │               │   ├── CarController.java
+│       │   │               │   ├── HomeController.java
+│       │   │               │   ├── Portone
+│       │   │               │   │   └── PortOneController.java
+│       │   │               │   ├── RentCarController.java
+│       │   │               │   ├── RentController.java
+│       │   │               │   ├── ReviewController.java
+│       │   │               │   ├── TermsAndConditionsController.java
+│       │   │               │   └── UserRestController.java
+│       │   │               └── domain
+│       │   │                   ├── CarSpecifications.java
+│       │   │                   ├── Filter
+│       │   │                   │   └── JWTFilter.java
+│       │   │                   ├── dto
+│       │   │                   │   ├── CarDto.java
+│       │   │                   │   ├── PortOneDto
+│       │   │                   │   │   ├── PortOneAuthInfoResponse.java
+│       │   │                   │   │   ├── Response.java
+│       │   │                   │   │   └── TokenResponseDto.java
+│       │   │                   │   ├── RentDto.java
+│       │   │                   │   ├── ReviewDto.java
+│       │   │                   │   ├── TermsAndConditionsDto.java
+│       │   │                   │   ├── UserDto.java
+│       │   │                   │   ├── UserRequestDto.java
+│       │   │                   │   ├── UserResponseDto.java
+│       │   │                   │   └── auth
+│       │   │                   │       ├── AuthRequestDto.java
+│       │   │                   │       └── AuthResponseDto.java
+│       │   │                   ├── entity
+│       │   │                   │   ├── Auth.java
+│       │   │                   │   ├── Car.java
+│       │   │                   │   ├── JwtUtil.java
+│       │   │                   │   ├── Payments.java
+│       │   │                   │   ├── Rent.java
+│       │   │                   │   ├── Review.java
+│       │   │                   │   ├── Role.java
+│       │   │                   │   ├── Signature.java
+│       │   │                   │   ├── TermsAndConditions.java
+│       │   │                   │   └── User.java
+│       │   │                   ├── repository
+│       │   │                   │   ├── AuthRepository.java
+│       │   │                   │   ├── CarRepository.java
+│       │   │                   │   ├── PaymentsRepository.java
+│       │   │                   │   ├── RentRepository.java
+│       │   │                   │   ├── ReviewRepository.java
+│       │   │                   │   ├── SignatureRepository.java
+│       │   │                   │   ├── TermsAndConditionsRepository.java
+│       │   │                   │   └── UserRepository.java
+│       │   │                   └── service
+│       │   │                       ├── AuthService.java
+│       │   │                       ├── CarService.java
+│       │   │                       ├── CertificationService.java
+│       │   │                       ├── PaymentService.java
+│       │   │                       ├── RentServiceImpl.java
+│       │   │                       ├── ReviewServiceImpl.java
+│       │   │                       ├── TermsAndConditionsInitializer.java
+│       │   │                       ├── TermsAndConditionsService.java
+│       │   │                       └── UserService.java
+│       │   ├── resources
+│       │   │   └── application.properties
+│       │   └── webapp
+│       │       └── WEB-INF
+│       │           └── views
+│       │               ├── cars
+│       │               │   ├── add.jsp
+│       │               │   ├── cars.jsp
+│       │               │   ├── delete.jsp
+│       │               │   ├── details.jsp
+│       │               │   ├── edit.jsp
+│       │               │   ├── list.jsp
+│       │               │   ├── search.jsp
+│       │               │   └── searchResults.jsp
+│       │               ├── index.jsp
+│       │               ├── login.jsp
+│       │               ├── main.jsp
+│       │               ├── rent
+│       │               │   ├── add.jsp
+│       │               │   ├── carList.jsp
+│       │               │   ├── carReturn.jsp
+│       │               │   └── dayUpdate.jsp
+│       │               ├── review
+│       │               │   ├── addReview.jsp
+│       │               │   ├── deleteReview.jsp
+│       │               │   ├── reviewMain.jsp
+│       │               │   ├── reviewRead.jsp
+│       │               │   └── updateReview.jsp
+│       │               ├── signup-success.jsp
+│       │               ├── signup.jsp
+│       │               └── terms.jsp
+│       └── test
+│           └── java
+│               └── com
+│                   └── project
+│                       └── rentcar
+│                           ├── RentcarApplicationTests.java
+│                           └── controller
+│                               └── RentControllerTest.java
+└── FN
+    ├── README.md
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   └── robots.txt
+    └── src
+        ├── App.css
+        ├── App.js
+        ├── App.test.js
+        ├── HeadFoot
+        │   ├── Logo
+        │   │   └── CRUVIX.png
+        │   ├── footer
+        │   │   ├── Footer.css
+        │   │   └── Footer.js
+        │   └── header
+        │       ├── Header.css
+        │       └── Header.js
+        ├── api
+        │   ├── AuthAPI.js
+        │   ├── MyInfo.js
+        │   ├── MyPage.js
+        │   ├── Navigation.js
+        │   ├── ReviewAPI.js
+        │   └── UserAPI.js
+        ├── components
+        │   ├── Car
+        │   │   ├── CarCard.css
+        │   │   ├── CarCard.js
+        │   │   ├── CarFilter.css
+        │   │   ├── CarFilter.js
+        │   │   ├── CarList.css
+        │   │   ├── CarList.js
+        │   │   ├── CarMain.css
+        │   │   ├── CarMain.jsx
+        │   │   ├── DateSelector.js
+        │   │   ├── Details
+        │   │   │   ├── CarDetail.css
+        │   │   │   ├── CarDetail.js
+        │   │   │   ├── Identity-pay.js
+        │   │   │   └── Map.js
+        │   │   ├── Pagination.css
+        │   │   ├── Pagination.js
+        │   │   └── ParentComponent.jsx
+        │   ├── HeadFoot
+        │   │   ├── Logo
+        │   │   │   └── CRUVIX.png
+        │   │   ├── footer
+        │   │   │   ├── Footer.css
+        │   │   │   └── Footer.js
+        │   │   └── header
+        │   │       ├── Header.css
+        │   │       └── Header.js
+        │   ├── Homepage.jsx
+        │   ├── IdentityPage.jsx
+        │   ├── MyPage
+        │   │   ├── MyInfo.jsx
+        │   │   ├── MyPage.jsx
+        │   │   ├── MyPageCss
+        │   │   │   ├── MyInfo.css
+        │   │   │   └── MyPage.css
+        │   │   ├── addr.js
+        │   │   └── addrdetail.js
+        │   ├── PaymentPage .jsx
+        │   ├── ReivewFindById.jsx
+        │   ├── ReivewUpdate.jsx
+        │   ├── Rent
+        │   │   ├── RentAPI.js
+        │   │   └── RentList.js
+        │   ├── ReviewAdd.jsx
+        │   ├── ReviewList.jsx
+        │   ├── ReviewPage.jsx
+        │   ├── SignInPage.jsx
+        │   ├── SignUpPage.jsx
+        │   ├── assets
+        │   │   ├── Cruvix.png
+        │   │   ├── booking.jpg
+        │   │   ├── cars.jpg
+        │   │   └── road.jpg
+        │   └── css
+        │       ├── MainPage.css
+        │       ├── ReviewPage.css
+        │       ├── SignInPage.css
+        │       └── SignUpPage.css
+        ├── index.css
+        ├── index.js
+        ├── logo.svg
+        ├── reportWebVitals.js
+        └── setupTests.js
 
 
 
