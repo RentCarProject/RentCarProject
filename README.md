@@ -33,9 +33,19 @@ DEVELOPMENT MOTIVATION
 <br><br><br><br>
 ### 2. MEMBER
        김현우 배주현 김준영
+---
+### 3.역활
+## 팀원 역할 분담
+
+| **이름**   | **담당 서비스**                                                                 |
+|------------|---------------------------------------------------------------------------------|
+| **배주현** | - 렌트 서비스<br>- 리뷰 서비스<br>- 결제 서비스<br>- 본인인증 서비스             |
+| **김준영** | - 회원가입 서비스<br>- 로그인 서비스<br>- 면허등록 서비스                       |
+| **김현우** | - 차량 서비스<br>- 상세주소 서비스                                              |
+
 <br><br><br><br>
        
-### 3. HISTORY
+### 4. HISTORY
 ## 프로젝트 주차별 일정
 
 | **구분**   | **1주차**            | **2주차**          | **3주차**           | **4주차**         | **5주차**       | **6주차**       |
@@ -50,7 +60,7 @@ DEVELOPMENT MOTIVATION
 ---
 <br><br><br><br>
 
-### 4. SKILLS
+### 5. SKILLS
 
 ### Front-End
 ---
@@ -73,7 +83,7 @@ DEVELOPMENT MOTIVATION
 
 <br><br><br><br>
 
-DEPENDENCIES LIST
+### 6.DEPENDENCIES LIST
 ---
 
 ### WEB 의존성
@@ -117,7 +127,7 @@ DEPENDENCIES LIST
 - `implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.27.0'	// WebDriverManager for easier WebDriver management`
 - `implementation 'io.github.bonigarcia:webdrivermanager:5.9.2`
 <br><br><br><br>
-### FILE TREES
+### 7.FILE TREES
 --- 
 ```
 .
